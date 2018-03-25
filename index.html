@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>WoloBill</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <style>
+    </style>
+  </head>
+  <body style='background-color: #21D4FD; background-image: linear-gradient(110deg, #21D4FD 0%, #B721FF 100%);'>
+    <div id = "landingBack" class = "back">
+      
+      <div id = 'landingInfo' class='landingInfo'>
+        <h1 id='landingHead'>
+          WoloBill
+        </h1>
+        <p style = 'text-align: left; color: #ffffff; font-size: 20px; font-weight: 300; margin-left: auto;  margin-right: auto; width: 350px'>
+          A new cryptocurrency based on bank and military grade encryption and the systems set out by Satoshi Nakamoto.
+        </p>
+        <div style='width: 300px; margin-left: auto; margin-right: auto;'>
+        <a href='javascript: WB_enterSite();'>
+        <button id='enterSite' style='float: left; margin-top: 20px; width: 300px'>
+          Let's Get Started!
+        </button>
+        </a>
+        </div>
+      </div>
+    </div>
+    <div id= "mainBack" class = "back" style='height:0px'>  
+      <div id="menu" class='menu'>
+        
+        <a href="javascript:WB_navToggle();" ><i class="material-icons WBI_white" style='margin-left:20px;margin-top:12px; float: left'>menu</i></a>
+        <h1 id = 'appBarText' style="float: left; font-size: 20px; margin-top: 4px; color: #ffffff; margin-left: 20px; position: relative; font-weight: 300">Home</h1>
+        
+      </div>
+      <div id='sideNav' class = 'sideNav'>
+        <a href="javascript:WB_navToggle();" >
+        <div id = 'homeButton' class = 'sideButton' style='margin-top: 10px'>
+          <i class="material-icons WBI_white" style='margin-left:20px; margin-top: 12px; float: left'>home</i>
+          <h1 id = 'appBarText' style="float: left; font-size: 20px; margin-top: 4px; color: #ffffff; margin-left: 20px; position: relative; font-weight: 300">Home</h1>
+        </div>
+        </a>
+      </div>
+      <div id='mainCard' class='mainCard'>
+        <div id = 'home' class = 'mainActive'>
+          <h1 class="appBarText" style="color: darkgrey; margin-left: 0px; font-size: 20px; margin-top: -10px; margin-bottom: -10px">
+            Notifications:
+          </h1>
+          <div class="notification">
+            <div style="white-space: normal; min-height: 50px; max-width: calc(100vw - 110px);
+            width: 500px; float: left;">
+            <h1 style="float: left; display: inline-block; color: white; font-size: 20px; margin-left: 6px; font-weight: 400; max-width: calc(100vw - 110px); width: 500px; padding: 0; height: 0px">This is a notification!</h1>
+            </div>
+            <i class="material-icons" style="display: inline-block; float: right; font-size: 30px; color: white; margin-right: 10px; padding: 0">close</i>
+            <h1 style="float: right; display: inline-block; color: white; font-weight: 400; font-size: 20px;  font-weight: 600; padding: 0">More Info</h1>
+          </div>
+          <h1 class="appBarText" style="color: darkgrey; margin-left: 0px; font-size: 20px">
+            Quick Actions:
+          </h1>
+          <div id="recentApps" style="margin-top: -10px;margin-left: -10px; height: 200px; width:100%">
+            <div style="margin: 10px; width: 180px; height: 180px; background-image: linear-gradient(110deg, #21D4FD 0%, #B721FF 100%); border-radius: 10px">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js">
+    </script>
+    <script src='chart.js'>
+    </script>
+    <script src="main.js">
+    </script>
+  </body>
+</html>
